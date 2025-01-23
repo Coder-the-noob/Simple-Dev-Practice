@@ -7,6 +7,11 @@
     color: rgb(0, 113, 133);
     font-weight: bold;
     cursor: pointer;
+    transition: color 0.5s;
+}
+
+.amazon:hover{
+    color:#BC4A21;
 }
 
 .para1{
@@ -38,7 +43,18 @@
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
+    transition: opacity 0.15s;
 }
+
+.button1:hover{
+    opacity: 1;
+}
+
+.button1:active{
+    opacity:0.5;
+}
+
+
 
 .button2{
     background-color: rgb(255, 164, 28);
@@ -50,4 +66,14 @@
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.button2:hover{
+    opacity: 1;
+
+}
+
+.button2:active{
+    opacity: 0.5;
 }
