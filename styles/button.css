@@ -12,6 +12,16 @@
     cursor: pointer;
     border-radius: 2px;
     margin-right: 10px;
+    transition: opacity 0.15s;
+}
+
+.sub-button:hover{
+    opacity: 0.8;
+}
+
+.sub-button:active{
+    opacity: 0.5;
+
 }
 
 .join-button{
@@ -25,6 +35,16 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover{
+    background-color:rgb(44, 89, 226) ;
+    color: white;
+}
+
+.join-button:active{
+    opacity: 0.5;
 }
 
 .x-button{
@@ -36,7 +56,16 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
+    transition: box-shadow 0.15s, opacity 0.15s;
    
+}
+
+.x-button:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.x-button:active{
+    opacity: 0.5;
 }
 
 .uber-button{
@@ -47,6 +76,15 @@
     height: 40px;
     cursor: pointer;
     border: none;
+    transition: opacity 0.15s;
+}
+
+.uber-button:hover{
+    opacity: 0.8;
+}
+
+.uber-button:active{
+    opacity: 0.5;
 }
 
 .amazon-button{
@@ -59,6 +97,16 @@
     font-size: 15px;
     border-radius: 20px;
     cursor: pointer;
+    transition: box-shadow 0.15s;
+    transition: background-color 0.15s;
+}
+
+.amazon-button:hover{
+    background-color: #F5C201;
+}
+
+.amazon-button:active{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); 
 }
 
 .git-button{
@@ -70,6 +118,15 @@
     width: 100px;
     border-radius: 10px;
     cursor: pointer;
+    transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.git-button:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.git-button:active{
+    opacity: 0.5;
 }
 
 .boot1-button{
@@ -81,6 +138,11 @@
     width: 120px;
     font-weight: bold;
     cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.boot1-button:hover{
+    background-color: #4F3477;
 }
 
 .boot2-button{
@@ -95,9 +157,15 @@
     width: 120px;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.15s, color 0.15s;    
 }
 
-.linke1-button{
+.boot2-button:hover{
+    background-color:rgb(108, 117, 125);
+    color:white;
+}
+
+.linkedin1-button{
     background-color: rgb(10, 102, 194);
     color: white;
     border: none;
@@ -107,10 +175,15 @@
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
+    transition: background-color 0.15s;
 
 }
 
-.linke2-button{
+.linkedin1-button:hover{
+    background-color: #00326B;
+}
+
+.linkedin2-button{
     background-color: white;
     color: rgb(10, 102, 194);
     border: none;
@@ -123,4 +196,10 @@
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    transition: border-width 0.15s, background-color 0.15s;  
+}
+
+.linkedin2-button:hover{
+    border-width: 3px;
+    background-color: #C5D1E0;
 }
