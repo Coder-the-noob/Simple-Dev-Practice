@@ -1,0 +1,22 @@
+.button1{
+    background-color: green;
+    color: white;
+    border:none;
+    /* height and width don't set in stretching */
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    
+    transition: padding-top 1s, padding-bottom 1s, padding-right 1s, padding-left 1s;
+}
+
+.button1:hover{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 36px;
+    padding-left: 36px;
+}
