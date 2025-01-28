@@ -1,0 +1,18 @@
+.block-input{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.block-description{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-button{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
