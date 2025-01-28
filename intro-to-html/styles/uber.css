@@ -1,0 +1,54 @@
+*{
+    font: Arial;
+}
+
+.ride{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.location{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    border: none;
+    background-color:  rgb(240, 240, 240);;
+}
+
+.destination{
+    
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    border: none;
+    background-color:  rgb(240, 240, 240);
+}
+
+.request{
+
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.schedule{
+    
+    margin-left: 10px;
+    background-color: #CDCDCD;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
