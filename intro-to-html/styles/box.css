@@ -1,0 +1,14 @@
+.box-element{
+    border: 1px solid #ccc; 
+    width: 250px;
+   
+
+}
+
+p{
+    margin-left: 10px;
+}
+.button-element{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
