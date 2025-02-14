@@ -1,0 +1,27 @@
+div{
+    border: 3px solid red;
+    padding: 5px;
+}
+
+
+.img1{
+    float: right;
+    width: 250px;
+    height:200px;
+}
+
+.head2{
+    clear: right;
+}
+
+.img2{
+    float: right;
+    width: 250px;
+    height:200px;
+}
+
+.clearfix::after{
+    content: "" ;
+    clear: both;
+    display: table;
+}

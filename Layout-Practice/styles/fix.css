@@ -1,0 +1,26 @@
+div{
+    border: 3px solid red;
+    padding: 5px;
+}
+
+.img1{
+    float: right;
+    width: 250px;
+    height: 200px;
+    
+}
+
+.header1{
+    margin-top: 40px;
+    clear: right;
+}
+
+.img2{
+    float: right;
+    width: 250px;
+    height: 200px;
+}
+
+.clearfix{
+    overflow: auto;
+}
