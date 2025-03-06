@@ -1,0 +1,34 @@
+.imgbox1{
+    float: left;
+    text-align: center;
+    width: 135px;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 6px;
+}
+
+.imgbox2{
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 6px;
+}
+
+
+.imgbox3{
+    float: left;
+    text-align: center;
+    width: 130px;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 6px;
+}
+
+button{
+    width:100%;
+}
+
+
+
