@@ -1,0 +1,33 @@
+p{
+    background-color:aquamarine;
+    padding: 10px;
+}
+
+span{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+p.ex1{
+    display: none;
+}
+
+p.ex2{
+    display: inline;
+}
+
+p.ex3{
+    display: block;
+}
+p.ex4{
+    display: inline-block;
+}
+
+p.ex5{
+    display: flex;
+    /* margin: 4px; */
+}
+
+p.ex6{
+    display: grid;
+}
