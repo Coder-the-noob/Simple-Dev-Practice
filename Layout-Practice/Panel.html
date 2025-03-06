@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Layout-Practice/styles/panel.css">
+</head>
+<body>
+    <p class="flip" onclick="myFunction()">Click to show panel</p>
+
+    <div id="panel">
+        <p>
+            This panel contains a div element, which is hidden by default(display:none).
+        </p>
+        
+        <p>
+            It is styled with CSS and we use Javascript to show it(display:block).
+        </p>
+        
+        <p>
+            How it works: Notice that hte p element with class="flip" has an onclick attribute to it. When the user clicks on the p element, a function called myFunction() is executed, which changes the style of the div with id="panel" from display:none(hidden) to display:block(visible).
+
+        </p>
+       
+        <p>
+            You will learn more about Javascript in our Javascript Tutorial.
+        </p>
+    </div>
+
+    <button onclick="resetElement()">Reset All</button>
+
+    <script>
+        function myFunction(){
+            document.getElementById("panel").style.display = "block";
+        }
+
+        function resetElement(){
+            document.getElementById("panel").style.display = "none";
+        }
+    </script>
+</body>
+</html>
